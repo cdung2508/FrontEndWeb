@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #424242;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+li, a, button {
+    text-decoration: none;
+}
+
+/**********   GRID  ************/
+.grid {
+    display: grid;
+    gap: 5rem;
+}
+
+.grid--1-cols {
+    grid-template-columns: 1fr;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+/************** LINK ****************/
+.link {
+    font-family: 'Montserrat', sans-serif;
+    color: #dedede;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    padding-bottom: 1.0rem;
+    transition: all 0.3s linear;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+/******** BUTTON ***********/
+
+
+/************Scroll bar**************/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.7) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/***********Font style*************/
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nunito-font {
+    font-family: 'Nunito', sans-serif;
+}
+
+.opensans-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***************Heading****************/
+.heading {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 2.5;
+    margin-bottom: 2em;
+}
+
+/***************Text Centering*****************/
+.center {
+    text-align: center;
+}
+
+/***************Title****************/
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.3rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+/***************Container****************/
+.container {
+    margin: 0 12rem 10rem; 
+}
+
+/**************Flex****************/
+.flex {
+    display: flex;
+}
